@@ -50,7 +50,7 @@ body {
     font-weight: 700;
     font-size: 25px;
     color: #ffffff;
-    letter-spacing: -0.05rem;
+    letter-spacing: -0.02em;
     padding-top: 12px;
 }
 .logo span {
@@ -61,9 +61,118 @@ body {
     font-size: 12px;
     margin-right: 29px;
     color: #ffffff;
-    padding-top: 22px;
-    letter-spacing: -0.05rem;
+    padding-top: 23px;
+    /*letter-spacing: -0.05rem;*/
 }
-.navigation li:last-child {
+.li {
+    position: relative;
+}
+li:hover {
+    cursor: pointer;
+    color: #f06c64;
+}
+.li:not(:last-child)::after {
+    content: "";
+    background-color: #434759;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    position: absolute;
+    top: 29px;
+    right: -16px;
+}
+ul {
+    list-style: none;
+  }
+  .navigation li:last-child {
     margin-right: 0;
+}
+
+/*slider*/
+
+.slider {
+    height: 594px;
+    background-color: #f06c64;
+    border-bottom: solid 6px #ea676b;
+}
+.slider__content {
+    display: flex;
+}
+.arrow {
+    display: flex;
+    justify-content: space-between;
+    }
+.arrow img:hover {
+    cursor: pointer;
+    color: #5a211e;
+}    
+.left {
+    padding-top: 281px;
+    padding-left: 2px;
+}
+.rigth {
+    transform: rotate(180deg);
+    padding-top: 232px;
+    padding-right: 55px;
+}
+
+.iPhone_vertical {
+   padding-top: 53px;
+   padding-left: 54px;
+}
+.iPhone_horizontal {
+    padding-top: 174px;
+    padding-left: 73px;
+ }
+ h2 {
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 0.06rem;
+    padding-top: 59px;
+    color: #666d89;
+    word-spacing: -1.5px;
+    margin-top: 0;
+ }
+ .services_description {
+    font-size: 18px;
+    font-weight: 300;
+    color: #767e9e;
+    line-height: 31px;
+    text-align: justify;
+    letter-spacing: -0.034rem;
+    margin-top: -7px;
+}
+.layout-3-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.services {
+    height: 495px;
+    background-color: #f2f2f2;
+    border-bottom: solid 6px #fff;
+}
+.block__icon {
+    height: 123px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+h3 {
+    margin-top: 23px;
+    padding-left: 18px;
+    color: #666d89;
+}
+.icon-circle {
+    padding-top: 26px;
+}
+.block__icon p {
+    width: 220px;
+    position: absolute;
+    font-size: 12px;
+    color: #666d89;
+    text-align: justify;
+    margin-top: 54px;
+    margin-left: 80px;
+    line-height: 21px;
 }
