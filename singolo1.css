@@ -127,11 +127,12 @@ ul {
  h2 {
     font-weight: 900;
     font-size: 30px;
-    letter-spacing: 0.06rem;
+    letter-spacing: 0.02rem;
     padding-top: 59px;
     color: #666d89;
     word-spacing: -1.5px;
     margin-top: 0;
+    font-family: 'Lato Black', Verdana, sans-serif;
  }
  .services_description {
     font-size: 18px;
@@ -162,6 +163,8 @@ h3 {
     margin-top: 23px;
     padding-left: 18px;
     color: #666d89;
+    font-family: 'Lato Black', Verdana, sans-serif;
+    letter-spacing: -0.038rem;
 }
 .icon-circle {
     padding-top: 26px;
