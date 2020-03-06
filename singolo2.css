@@ -31,14 +31,98 @@ h2 {
     font-weight: 900;
     font-size: 30px;
     letter-spacing: 0.02rem;
-    padding-top: 59px;
+    padding-top: 60px;
     color: #666d89;
     word-spacing: -1.5px;
-    margin-top: 0;
+    margin: auto;
     font-family: 'Lato Black', Verdana, sans-serif;
+ }
+ .portfolio__text {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    letter-spacing: -0.035rem;
+    margin-bottom: 0px;
  }
  .portfolio {
     height: 864px;
     background-color: #2d303a;
     border-bottom: solid 6px #323746;
+ }
+ .portfolio__tags {
+     display: flex;
+ }
+ .tag_bordered {
+    font-size: 12px;
+    line-height: 14px;
+    color: #767e9e;
+    border: 1px solid #666d89;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 11px 9px 0px 1px;
+    padding: 3px 7px 3px 7px;
+    letter-spacing: -0.024rem;
+ }
+ .tag_bordered:hover {
+     color: white;
+     border-color: white;
+ }
+ .portfolio__project {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 0;
+     margin: 0;
+ }
+ .portfolio__project-img {
+     list-style: none;
+     margin: 19px 0 -2px 0;
+ }
+ .portfolio__project-img:nth-child(1n+13){
+     display: none;
+ }
+ .about-us {
+    height: 728px;
+    background-color: #f2f2f2;
+    border-bottom: solid 6px #ffffff;
+ }
+ .about-us__text {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    letter-spacing: -0.017rem;
+    margin-bottom: 0px;
+ }
+ .layout-3-column {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin-top: 44px;
+ }
+ .card {
+    flex-basis: 300px;
+ }
+.card__name {
+    margin-top: 11px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: #666d89;
+    letter-spacing: 0.015rem;
+ }
+ .card__text {
+    font-size: 12px;
+    line-height: 21px;
+    color: #767e9e;
+    margin-top: 9px;
+ }
+ .social-media {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-top: 24px;
+    width: 152px;
+ }
+ .social-icon {
+    list-style: none;
+    cursor: pointer;
  }
