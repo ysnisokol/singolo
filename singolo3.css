@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Lato Black';
+    src: url('assets/fonts/Lato-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('assets/fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+html {
+    font-size: 10px;
+}
+    
+body {
+    margin: 0;
+    font-family: 'Lato Regular', Verdana, sans-serif;
+    font-size: 1.6rem;
+    background-color: #fbfbfb;
+}
+.wrapper {
+    width: 940px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.contact {
+    height: 648px;
+    background-color: #f06c64;
+    border-bottom: solid 6px #ea676b;
+}
+h2 {
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 0.02rem;
+    padding-top: 60px;
+    color: #f0d8d9;
+    word-spacing: -1.5px;
+    margin: auto;
+    font-family: 'Lato Black', Verdana, sans-serif;
+ }
+.contact-text {
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    letter-spacing: -0.03rem;
+    margin-bottom: 0px;
+    text-align: justify;
+ }
+ .contact__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+ }
+ .contact__form {
+     margin-top: 3px;
+     width: 618px;
+ }
+.input-text {
+  padding: 12px 15px;
+  width: 619px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  font: normal 12px/14px "Lato", "Arial", sans-serif;
+  
+  border: none;
+  border-radius: 5px;
+  background-color: #d6564f;
+  color: #f0d8d9;
+}
+::placeholder {
+    color: #f48c8f;
+    opacity: 1;
+  }
+  
+textarea {
+    padding: 11px 15px 13px 14px;
+    resize: none;
+    max-height: 202px;
+    height: 203px;
+  }
+  
+
+  .sabmit {
+    padding: 12px 14px 10px;
+    border-radius: 5px;
+    width: initial;
+    background-color: transparent;
+    color: #f0d8d9;
+    border: 1px solid #f0d8d9;
+
+  }
+  .sabmit:focus:invalid {
+    filter: saturate(1.5);
+  }
+  .sabmit:hover {
+    padding: 13px 15px 11px;
+  
+    background-color: #f0d8d9;
+    color: var(--primary);
+    border: none;
+  }
+h4 {
+    font-size: 18px;
+    letter-spacing: 0.02rem;
+    padding-left: 21px;
+    color: #f0d8d9;
+    word-spacing: -1.5px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-family: 'Lato Black', Verdana, sans-serif;
+}
+.contact__info-text {
+    margin: 7px 0 0 21px;
+    font-size: 12px;
+    letter-spacing: -0.02rem;
+    line-height: 22px;
+    text-align: justify;
+    hyphens: manual;
+    color: #f0d8d9;
+}
+.address {
+    margin-block-start: 0;
+    margin-top: 20px;
+  
+    letter-spacing: -0.013em;
+  
+    background: transparent url("assets/img/icon-location.svg") no-repeat 3px center;
+  }
+  footer {
+    height: 76px;
+    background-color: #2d303a;
+    
+  }
+  .social-media {
+    display: flex;
+    justify-content: flex-end;
+  }  
