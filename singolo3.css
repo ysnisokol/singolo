@@ -123,19 +123,55 @@ h4 {
     color: #f0d8d9;
 }
 .address {
-    margin-block-start: 0;
-    margin-top: 20px;
-  
-    letter-spacing: -0.013em;
-  
-    background: transparent url("assets/img/icon-location.svg") no-repeat 3px center;
-  }
+    letter-spacing: -0.016em;
+    background: transparent url(assets/img/icon-location.svg) no-repeat 0px center;
+    font-size: 12px;
+    margin: 25px 0 5px 25px;
+    padding-left: 20px;
+    color: #f0d8d9;
+ }
+ .phone {
+    letter-spacing: -0.016em;
+    background: transparent url(assets/img/icon-phone.svg) no-repeat 0px center;
+    font-size: 12px;
+    margin: 19px 0 0 22px;
+    padding-left: 23px;
+    text-decoration: none;
+    color: #f0d8d9;  
+ }
+ .email {
+    letter-spacing: -0.016em;
+    background: transparent url(assets/img/icon-email.svg) no-repeat 0px center;
+    font-size: 12px;
+    margin: 0 0 0 22px;
+    padding: 1px 0 4px 23px;
+    text-decoration: none;
+    color: #f0d8d9;  
+ }
   footer {
     height: 76px;
     background-color: #2d303a;
     
   }
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .copyright {
+    font-size: 12px;
+    letter-spacing: -0.005rem;
+    color: #666d89;
+    margin-top: 30px;  
+  }  
   .social-media {
     display: flex;
-    justify-content: flex-end;
-  }  
+    justify-content: space-between;
+    padding-left: 0;
+    margin-top: 24px;
+    width: 152px;
+ }
+ .social-icon {
+    list-style: none;
+    cursor: pointer;
+ }
+ 
